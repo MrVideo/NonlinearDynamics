@@ -1,4 +1,4 @@
-function dydt = lotka(t, y)
+function dydt = lotka(~, y)
     % Set prey and predator populations
     prey = y(1);
     predator = y(2);
