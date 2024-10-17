@@ -1,4 +1,3 @@
-
 % System definition
 function dydt = lorenz(~, y)
     % Parameters
