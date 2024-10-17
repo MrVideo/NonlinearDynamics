@@ -48,5 +48,5 @@ end
 % Enable grid
 grid on;
 
-% Set axis limits for good looksmodel
+% Set axis limits for good looks
 axis([-5 5 0 10]);
