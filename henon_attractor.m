@@ -3,7 +3,7 @@
 % y(t+1) = 0.3x(t)
 
 % Number of loop iterations
-iterations = 1000;
+iterations = 10000;
 
 % Initial conditions
 x0 = 1.0;
