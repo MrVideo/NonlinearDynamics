@@ -41,7 +41,7 @@ t = [0 1000];
 % Solve
 [t, x] = ode45(@chua, t, x0);
 
-% Phase plane
+% Phase space
 figure;
 plot3(x(:, 1), x(:, 2), x(:, 3));
 grid on;

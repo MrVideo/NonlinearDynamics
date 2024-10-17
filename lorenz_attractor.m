@@ -23,7 +23,7 @@ t = [0 1000];
 % Solve
 [t, y] = ode45(@lorenz, t, y0);
 
-% Phase plane
+% Phase space
 figure;
 plot3(y(:, 1), y(:, 2), y(:, 3));
 grid on;
